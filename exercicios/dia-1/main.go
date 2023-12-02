@@ -10,7 +10,6 @@ import (
 )
 
 // Part 1
-
 func getFirstAndLastDigits(line string) (int, int) {
 	firstDigit := -1
 	lastDigit := -1
@@ -126,6 +125,7 @@ func getSumOfCalibrationValues(filename string) (int, error) {
 	return sum, nil
 }
 
+// main
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Please provide a filename as an argument")
